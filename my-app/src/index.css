@@ -24,7 +24,10 @@ body {
   ); /* Chrome 10-25, Safari 5.1-6 */
   /* background: linear-gradient(to right, #2c3e50, #bdc3c7); */
 }
-
+.App {
+  align-items: center;
+  margin-left: 15rem;
+}
 .board-row:after {
   clear: both;
   content: "";
