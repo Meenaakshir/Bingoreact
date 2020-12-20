@@ -22,10 +22,13 @@ body {
     #2c3e50,
     #bdc3c7
   ); */
+  background-image: url(./bingo.jpg);
 }
 .App {
   align-items: center;
-  margin-left: 15rem;
+  margin-left: 18rem;
+
+  /*background-repeat: cover;*/
 }
 .board-row:after {
   clear: both;
