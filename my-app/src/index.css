@@ -72,7 +72,7 @@ button.squarehighlight {
   border-radius: 6px;
   cursor: pointer;
   outline: none;
-  background: greenyellow;
+  background: #ff80df;
 }
 .square:focus {
   outline: none;
