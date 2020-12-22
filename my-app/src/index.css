@@ -22,7 +22,8 @@ body {
     #2c3e50,
     #bdc3c7
   ); */
-  background-image: url(./bingo.jpg);
+  /* background-image: url(./bingo.jpg);*/
+  background-color: #19323a;
 }
 .App {
   align-items: center;
@@ -42,11 +43,12 @@ body {
   font-weight: bold;
   font-style: italic;
   margin-left: 3rem;
-  color: black;
+  color: #ffffff;
 }
 
 .square {
   /* background: rgb(78, 195, 199);*/
+  background-color: #ae1c35;
   float: left;
   font-size: 34px;
   font-weight: bold;
@@ -58,6 +60,7 @@ body {
   width: 94px;
   border-radius: 6px;
   cursor: pointer;
+  color: white;
 }
 button.squarehighlight {
   float: left;
@@ -72,7 +75,7 @@ button.squarehighlight {
   border-radius: 6px;
   cursor: pointer;
   outline: none;
-  background: #ff80df;
+  background: #33ff33;
 }
 .square:focus {
   outline: none;
