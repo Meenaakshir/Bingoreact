@@ -23,7 +23,7 @@ body {
     #bdc3c7
   ); */
   /* background-image: url(./bingo.jpg);*/
-  background-color: #19323a;
+  background-color: grey;
 }
 .App {
   align-items: center;
@@ -79,4 +79,22 @@ button.squarehighlight {
 }
 .square:focus {
   outline: none;
+}
+h2 {
+  color: rgb(50, 13, 153);
+
+  margin-left: 2rem;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }

@@ -12,10 +12,11 @@ function Game() {
 
   const winnerHighlight = winningInfo.line;
   let status;
+
   if (winner) {
-    status = "Hurray the winner is " + winner;
+    status = "The winner is " + winner;
   } else if (winningInfo.isDraw) {
-    status = "It's a Draw";
+    status = "Oops its a Draw";
   } else {
     status = "Next Player is " + (isXNext ? "X" : "O");
   }

@@ -7,6 +7,7 @@ import "./index.css";
 function App() {
   return (
     <div className="App">
+      <h2>Lets play tic tac toe !! </h2>
       <Game />
     </div>
   );
